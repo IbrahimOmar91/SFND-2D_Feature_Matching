@@ -11,6 +11,56 @@ The idea of the camera course is to build a collision detection system - that's 
 
 See the classroom instruction and code comments for more details on each of these parts. Once you are finished with this project, the keypoint matching part will be set up and you can proceed to the next lesson, where the focus is on integrating Lidar points and on object detection using deep-learning. 
 
+## Results
+After running the code with almost all possible combinations on all images, the result was averaged over the input images and written down in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/AVGs.csv
+<br>For each compination of detector and extractor:
+* Nverage of number of detected Key Points `keyPoints`.
+* Time consumed by the detector `detector-time`.
+* Number of KeyPoints inside the car rectangle `focused`.
+* Time consumed by the descriptor `descriptor-time`.
+* Number of matches inside the car rectangle `matches`.
+* Time consumed by the matcher `matching-time`.
+
+the results can be summorized in the fo1lowing pictures 
+### Average Number of total keypoints for each compination:
+#### Max is 2711.6 For `BRISK` detector
+<img src="Results/001keypoints.PNG" />
+
+### Average Number of keypoints within the car box for each compination:
+#### Max is 271.3 For `BRISK`
+<img src="Results/002focusedPoints.PNG" />
+
+### Average Number of matches within the car box for each compination:
+#### Max is 186 For The `BRISK-BRIEF` Compination
+<img src="Results/003matches.PNG" />
+
+### Average time consumed by the detector for each compination:
+#### Min is 0.56 mSec for `FAST`
+<img src="Results/004detectorTime.PNG" />
+
+### Average time consumed by the describtor for each compination:
+#### Min is 0.397 for `HARRIS-BRIEF`
+<img src="Results/005descriptorTime.PNG" />
+
+### Average time consumed by the matcher for each compination:
+<img src="Results/006matchingTime.PNG" />
+
+### Totak time consumed by the matcher and the descriptor for each compination:
+#### Min is 1.14 for `FAST-BRIEF`
+<img src="Results/007overallTime.PNG" />
+
+### Best Three Compinations:
+|#|Compination | Time |
+|-|-----------|-----------|
+|1|FAST-BRIEF | 1.1474457|
+|2|FAST-ORB | 1.4740906|
+|3|FAST-BRISK | 1.7876447|
+
+
+
+
+
+
 ## Dependencies for Running Locally
 * cmake >= 2.8
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
