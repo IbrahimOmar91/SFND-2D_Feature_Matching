@@ -13,8 +13,15 @@ See the classroom instruction and code comments for more details on each of thes
 
 ## Results
 After running the code with almost all possible combinations on all images.
-<br> The result for keypoints count and time for all images are in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/allData.csv
+<br>The result for keypoints count and time for all images are in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/allData.csv
 <br>The first column indicates new compination, the first row for each combination contains the average values for the whole compination then the values for each one of the 10 images in order.
+#### Visual Observations "On the first image":
+Harris has the lowest numbers of points also it has small neighborhood size.
+<br>Shi-Tomasi has higher number of points but still has small neighborhood size.
+<br>SIFT has little lower number of points but the neighborhood size is bigger.
+<br>ORB has the largest neighborhood size of them all but average number of points.
+<br>FAST, AKAZE and BRISK almost the same number of points but FAST neighborhood size is the smallest of them then comes the AKAZE after that the BRISK wich has different neighborhood sizes for the points and in the three most of the features are near to the edges of the car with little advantage for the AKAZE to have slightly more near points.
+
 <br>The result was also averaged over the input images and written down in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/AVGs.csv
 <br>For each compination of detector and extractor:
 * Nverage of number of detected Key Points `keyPoints`.
