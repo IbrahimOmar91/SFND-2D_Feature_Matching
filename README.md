@@ -60,7 +60,7 @@ the results can be summorized in the fo1lowing pictures
 #### Min is 1.14 for `FAST-BRIEF`
 <img src="Results/007overallTime.PNG" />
 
-### Best Three Compinations:
+### Best Three Combinations:
 |#|Compination | Time |
 |-|-----------|-----------|
 |1|FAST-BRIEF | 1.1474457|
