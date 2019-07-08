@@ -20,6 +20,7 @@ After running the code with almost all possible combinations on all images, the 
 * Time consumed by the descriptor `descriptor-time`.
 * Number of matches inside the car rectangle `matches`.
 * Time consumed by the matcher `matching-time`.
+* Total time consumed by the detector and the descreptor `total-time`.
 
 the results can be summorized in the fo1lowing pictures 
 ### Average Number of total keypoints for each compination:
@@ -55,9 +56,6 @@ the results can be summorized in the fo1lowing pictures
 |1|FAST-BRIEF | 1.1474457|
 |2|FAST-ORB | 1.4740906|
 |3|FAST-BRISK | 1.7876447|
-
-
-
 
 
 
