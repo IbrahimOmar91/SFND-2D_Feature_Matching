@@ -12,7 +12,10 @@ The idea of the camera course is to build a collision detection system - that's 
 See the classroom instruction and code comments for more details on each of these parts. Once you are finished with this project, the keypoint matching part will be set up and you can proceed to the next lesson, where the focus is on integrating Lidar points and on object detection using deep-learning. 
 
 ## Results
-After running the code with almost all possible combinations on all images, the result was averaged over the input images and written down in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/AVGs.csv
+After running the code with almost all possible combinations on all images.
+<br> The result for keypoints count and time for all images are in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/allData.csv
+<br>The first column indicates new compination, the first row for each combination contains the average values for the whole compination then the values for each one of the 10 images in order.
+<br>The result was also averaged over the input images and written down in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/AVGs.csv
 <br>For each compination of detector and extractor:
 * Nverage of number of detected Key Points `keyPoints`.
 * Time consumed by the detector `detector-time`.
