@@ -14,7 +14,7 @@ See the classroom instruction and code comments for more details on each of thes
 ## Results
 After running the code with almost all possible combinations on all images.
 <br>The result for keypoints count and time for all images are in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/allData.csv
-<br>The first column indicates new compination, the first row for each combination contains the average values for the whole compination then the values for each one of the 10 images in order.
+<br>The first column indicates new combination, the first row for each combination contains the average values for the whole combination then the values for each one of the 10 images in order.
 #### Visual Observations "On the first image":
 Harris has the lowest numbers of points also it has small neighborhood size.
 <br>Shi-Tomasi has higher number of points but still has small neighborhood size.
@@ -23,7 +23,7 @@ Harris has the lowest numbers of points also it has small neighborhood size.
 <br>FAST, AKAZE and BRISK almost the same number of points but FAST neighborhood size is the smallest of them then comes the AKAZE after that the BRISK wich has different neighborhood sizes for the points and in the three most of the features are near to the edges of the car with little advantage for the AKAZE to have slightly more near points.
 
 <br>The result was also averaged over the input images and written down in this file https://github.com/IbrahimOmar91/SFND-2D_Feature_Matching/blob/master/Results/AVGs.csv
-<br>For each compination of detector and extractor:
+<br>For each combination of detector and extractor:
 * Nverage of number of detected Key Points `keyPoints`.
 * Time consumed by the detector `detector-time`.
 * Number of KeyPoints inside the car rectangle `focused`.
@@ -33,19 +33,19 @@ Harris has the lowest numbers of points also it has small neighborhood size.
 * Total time consumed by the detector and the descreptor `total-time`.
 
 the results can be summorized in the fo1lowing pictures 
-### Average Number of total keypoints for each compination:
+### Average Number of total keypoints for each combination:
 #### Max is 2711.6 For `BRISK` detector
 <img src="Results/001keypoints.PNG" />
 
-### Average Number of keypoints within the car box for each compination:
+### Average Number of keypoints within the car box for each combination:
 #### Max is 271.3 For `BRISK`
 <img src="Results/002focusedPoints.PNG" />
 
-### Average Number of matches within the car box for each compination:
-#### Max is 186 For The `BRISK-BRIEF` Compination
+### Average Number of matches within the car box for each combination:
+#### Max is 186 For The `BRISK-BRIEF` Combination
 <img src="Results/003matches.PNG" />
 
-### Average time consumed by the detector for each compination:
+### Average time consumed by the detector for each combination:
 #### Min is 0.56 mSec for `FAST`
 <img src="Results/004detectorTime.PNG" />
 
