@@ -67,7 +67,9 @@ the results can be summarized in the fo1lowing pictures
 |2|FAST-ORB | 1.4740906|
 |3|FAST-BRISK | 1.7876447|
 
-
+### Notes:
+1- The `AKAZE` descriptor works only with the `AKAZE` detector.
+2- The `SIFT-ORB` combination gives outOfMemory Error Both locally and on the workspace.
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
