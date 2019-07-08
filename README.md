@@ -56,7 +56,7 @@ the results can be summarized in the fo1lowing pictures
 ### Average time consumed by the matcher for each combination:
 <img src="Results/006matchingTime.PNG" />
 
-### Totak time consumed by the matcher and the descriptor for each combination:
+### Total time consumed by the matcher and the descriptor for each combination:
 #### Min is 1.14 for `FAST-BRIEF`
 <img src="Results/007overallTime.PNG" />
 
