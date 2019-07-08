@@ -49,19 +49,19 @@ the results can be summorized in the fo1lowing pictures
 #### Min is 0.56 mSec for `FAST`
 <img src="Results/004detectorTime.PNG" />
 
-### Average time consumed by the describtor for each compination:
+### Average time consumed by the describtor for each combination:
 #### Min is 0.397 for `HARRIS-BRIEF`
 <img src="Results/005descriptorTime.PNG" />
 
-### Average time consumed by the matcher for each compination:
+### Average time consumed by the matcher for each combination:
 <img src="Results/006matchingTime.PNG" />
 
-### Totak time consumed by the matcher and the descriptor for each compination:
+### Totak time consumed by the matcher and the descriptor for each combination:
 #### Min is 1.14 for `FAST-BRIEF`
 <img src="Results/007overallTime.PNG" />
 
 ### Best Three Combinations:
-|#|Compination | Time |
+|#|Combination | Time |
 |-|-----------|-----------|
 |1|FAST-BRIEF | 1.1474457|
 |2|FAST-ORB | 1.4740906|
